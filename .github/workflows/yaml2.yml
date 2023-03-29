@@ -13,7 +13,7 @@ jobs:
         with:
           node-version: 14.17.6
       - name: Run SUT Action with custom fork
-        uses: EthereumRemix/sol-test@v1.1.10-dev
+        uses: EthereumRemix/sol-test@v1.2.0-dev
         with:
           test-path: 'sample/tests/custom/hardFork_test.sol'
           compiler-version: '0.8.17'
